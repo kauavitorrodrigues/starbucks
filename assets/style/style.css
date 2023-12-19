@@ -239,3 +239,33 @@ header .line {
 }
 
 /*--------------------------------------*/
+
+/*-----------SECTION-AREA3--------------*/
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3-content {
+    padding: 200px 80px;
+    background-image: url(/assets/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+.area3-content h2 {
+    font-size: 3em;
+}
+
+.area3-text {
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+
+.area3-img {
+    background-image: url(/assets/img/f5.jpg);
+    background-size: cover;
+    background-position: center;
+}
