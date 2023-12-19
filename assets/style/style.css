@@ -22,6 +22,7 @@
 
 * {
     font-family: var(--default-font);
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -101,3 +102,32 @@ header .line {
 }
 
 /*--------------------------------------*/
+
+/*-----------SECTION-BANNER-------------*/
+
+.banner {
+    background-image: url(/assets/img/bg.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.banner h1 {
+    font-size: 6em;
+    font-family: var(--title-font);
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+.banner-images {
+    margin-top: 60px;
+}
+
+.banner-images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid var(--border-color1);
+    margin-right: 40px;
+}
