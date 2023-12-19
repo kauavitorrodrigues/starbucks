@@ -199,3 +199,43 @@ header .line {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
 }
+
+/*--------------------------------------*/
+
+/*-----------SECTION-AREA2--------------*/
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2-content {
+    padding: 80px;
+}
+
+.area2-content h2 {
+    font-size: 3em;
+}
+
+.area2-text {
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+
+.area2-img1 {
+    background-image: url(/assets/img/f4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+}
+
+.area2-img2 {
+    background-image: url(/assets/img/f3.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+/*--------------------------------------*/
