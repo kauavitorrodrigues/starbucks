@@ -2,22 +2,102 @@
 
 :root {
 
-    /*---------------FONTS-----------------*/
+    /*---------------FONTS------------------*/
 
     --default-font: 'Open Sans', sans-serif;
     --title-font: 'Oswald', sans-serif;
 
-    /*-------------------------------------*/
+    /*--------------------------------------*/
 
     /*---------------COLORS-----------------*/
 
-    --border-color: #117050;
+    --border-color1: #117050;
+    --border-color2: #999999;
+    --border-color3: black;
 
-    /*-------------------------------------*/
+    /*--------------------------------------*/
 }
+
+/*------------DEFAULT-CONFIGS-----------*/
 
 * {
     font-family: var(--default-font);
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/*--------------------------------------*/
+
+/*----------------HEADER---------------*/
+
+header .line {
+    background-color: var(--border-color1);
+    height: 10px;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-search form {
+    display: flex;
+}
+
+.header-search input {
+    border: 1px solid var(--border-color2);
+    font-size: 1rem;
+    
+    outline: 0;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 10px;
+}
+
+.header-search button {
+    border: 0;
+    margin-left: -40px;
+    padding: 10px 10px 5px 10px;
+
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.header-search button:hover {
+    border: 2px solid var(--border-color3);
+}
+
+.header-search button img {
+    width: 16px;
+    height: 16px;
+}
+
+.header-menu {
+    margin-left: 70px;
+}
+
+.header-menu img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/*--------------------------------------*/
