@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+:root {
+
+    /*---------------FONTS-----------------*/
+
+    --default-font: 'Open Sans', sans-serif;
+    --title-font: 'Oswald', sans-serif;
+
+    /*-------------------------------------*/
+
+    /*---------------COLORS-----------------*/
+
+    --border-color: #117050;
+
+    /*-------------------------------------*/
+}
+
+* {
+    font-family: var(--default-font);
+    margin: 0;
+    padding: 0;
+}
