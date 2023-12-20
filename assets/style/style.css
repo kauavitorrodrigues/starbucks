@@ -14,6 +14,8 @@
     --border-color1: #117050;
     --border-color2: #999999;
     --border-color3: black;
+    --bg-color: #E8E9EE;
+    --bg-color2: #343334;    
 
     /*--------------------------------------*/
 }
@@ -272,7 +274,7 @@ header .line {
 }
 
 .area4-content {
-    background-color: #E8E9EE;
+    background-color: var(--bg-color);
     padding: 140px 80px;
 }
 
@@ -281,12 +283,48 @@ header .line {
     line-height: 25px;
 }
 
-.button {
-}
-
 .area4-img {
     
     background-image: url(/assets/img/bg3.jpg);
     background-size: cover;
     background-position: left;
+}
+
+/*--------------------------------------*/
+
+/*-----------SECTION-AREA5--------------*/
+
+.area5 {
+    height: 700px;
+    background-image: url(/assets/img/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*--------------------------------------*/
+
+/*--------------FOOTER------------------*/
+
+footer {
+    height: 220px;
+    padding: 80px;
+    text-align: center;
+    background-color: var(--bg-color2);
+}
+
+footer p {
+    color: #fff;
+}
+
+footer p:nth-child(2) {
+    margin-top: 50px
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
