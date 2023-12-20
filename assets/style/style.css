@@ -51,7 +51,7 @@ h1 {
 
 
 h2 {
-    font-size: 4em;
+    font-size: 3em;
     margin: 30px 0px;
 }
 
@@ -213,10 +213,6 @@ header .line {
     padding: 80px;
 }
 
-.area2-content h2 {
-    font-size: 3em;
-}
-
 .area2-text {
     margin-bottom: 60px;
     line-height: 25px;
@@ -255,10 +251,6 @@ header .line {
     background-position: bottom left;
 }
 
-.area3-content h2 {
-    font-size: 3em;
-}
-
 .area3-text {
     margin-bottom: 60px;
     line-height: 25px;
@@ -268,4 +260,33 @@ header .line {
     background-image: url(/assets/img/f5.jpg);
     background-size: cover;
     background-position: center;
+}
+
+/*--------------------------------------*/
+
+/*-----------SECTION-AREA4--------------*/
+
+.area4 {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+}
+
+.area4-content {
+    background-color: #E8E9EE;
+    padding: 140px 80px;
+}
+
+.area4-text {
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+
+.button {
+}
+
+.area4-img {
+    
+    background-image: url(/assets/img/bg3.jpg);
+    background-size: cover;
+    background-position: left;
 }
